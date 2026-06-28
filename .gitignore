@@ -1,0 +1,13 @@
+# Node modules
+backend/node_modules/
+frontend/node_modules/
+
+# Build output
+frontend/build/
+
+# Runtime data
+backend/data/todos.json
+
+# Misc
+.DS_Store
+*.log

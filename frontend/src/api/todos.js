@@ -1,0 +1,12 @@
+import axios from 'axios';
+const api = axios.create({ baseURL: 'http://localhost:4000/api' });
+export const fetchTodos = (params = {}) => api.get('/todos', { params }).then(r => r.data);
+export const fetchTodo = (id) => api.get(`/todos/${id}`).then(r => r.data);
+export const fetchStats = () => api.get('/todos/stats').then(r => r.data);
+export const createTodo = (data) => api.post('/todos', data).then(r => r.data);
+export const updateTodo = (id, data) => api.put(`/todos/${id}`, data).then(r => r.data);
+export const toggleTodo = (id) => api.patch(`/todos/${id}/toggle`).then(r => r.data);
+export const toggleSubtask = (id, subtaskId) => api.patch(`/todos/${id}/subtasks/${subtaskId}/toggle`).then(r => r.data);
+export const deleteTodo = (id) => api.delete(`/todos/${id}`).then(r => r.data);
+export const clearCompleted = () => api.delete('/todos?clearCompleted=true').then(r => r.data);
+export const reorderTodos = (orderedIds) => api.patch('/todos/reorder', { orderedIds }).then(r => r.data);
