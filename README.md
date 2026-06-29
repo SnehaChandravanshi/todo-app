@@ -39,15 +39,7 @@ Three views. One keyboard shortcut. Zero friction.
 
 ---
 
-## ◉ Screenshots
-
-| List View | Kanban Board | Analytics |
-|-----------|-------------|-----------|
-| ![List](https://raw.githubusercontent.com/SnehaChandravanshi/todo-app/main/docs/screenshots/list.png) | ![Kanban](https://raw.githubusercontent.com/SnehaChandravanshi/todo-app/main/docs/screenshots/kanban.png) | ![Analytics](https://raw.githubusercontent.com/SnehaChandravanshi/todo-app/main/docs/screenshots/analytics.png) |
-
----
-
-## ⚡ Feature Matrix
+##  Feature Matrix
 
 ### Core
 | Feature | Status |
@@ -91,7 +83,7 @@ Three views. One keyboard shortcut. Zero friction.
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -108,7 +100,7 @@ Three views. One keyboard shortcut. Zero friction.
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js `v16+`
@@ -138,11 +130,11 @@ npm start
 
 Open **http://localhost:3000** — you're in.
 
-> 💡 **Shortcut:** Press `Ctrl+K` anywhere to instantly open the create task modal.
+>  **Shortcut:** Press `Ctrl+K` anywhere to instantly open the create task modal.
 
 ---
 
-## 🌐 REST API
+##  REST API
 
 Base URL: `http://localhost:4000/api`
 
@@ -210,7 +202,7 @@ todo-app/
 
 ---
 
-## 🗺 Roadmap
+##  Roadmap
 
 - [ ] User authentication (JWT)
 - [ ] PostgreSQL / MongoDB backend
